@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"github.com/nafisalfiani/ketson-go-lib/codes"
-	"github.com/nafisalfiani/ketson-go-lib/errors"
 	"github.com/nafisalfiani/ketson-transaction-service/entity"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/codes"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/errors"
 	"gorm.io/gorm"
 )
 

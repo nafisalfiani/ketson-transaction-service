@@ -3,7 +3,7 @@ package transaction
 import (
 	context "context"
 
-	"github.com/nafisalfiani/ketson-go-lib/log"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/log"
 	"github.com/nafisalfiani/ketson-transaction-service/usecase/transaction"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 )

@@ -1,9 +1,9 @@
 package usecase
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-transaction-service/domain"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/broker"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/log"
 	"github.com/nafisalfiani/ketson-transaction-service/usecase/transaction"
 	"github.com/nafisalfiani/ketson-transaction-service/usecase/wallet"
 )

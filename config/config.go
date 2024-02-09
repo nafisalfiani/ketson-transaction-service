@@ -1,13 +1,13 @@
 package config
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/auth"
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/cache"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/security"
-	"github.com/nafisalfiani/ketson-go-lib/sql"
 	"github.com/nafisalfiani/ketson-transaction-service/handler/grpc"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/auth"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/broker"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/cache"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/log"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/security"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/sql"
 )
 
 type Application struct {

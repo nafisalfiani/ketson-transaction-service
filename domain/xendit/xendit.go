@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/nafisalfiani/ketson-go-lib/log"
 	"github.com/nafisalfiani/ketson-transaction-service/entity"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/log"
 	"github.com/xendit/xendit-go/v4"
 	"github.com/xendit/xendit-go/v4/invoice"
 )

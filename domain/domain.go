@@ -1,12 +1,12 @@
 package domain
 
 import (
-	"github.com/nafisalfiani/ketson-go-lib/broker"
-	"github.com/nafisalfiani/ketson-go-lib/log"
-	"github.com/nafisalfiani/ketson-go-lib/parser"
 	"github.com/nafisalfiani/ketson-transaction-service/domain/transaction"
 	"github.com/nafisalfiani/ketson-transaction-service/domain/wallet"
 	xenditDom "github.com/nafisalfiani/ketson-transaction-service/domain/xendit"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/broker"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/log"
+	"github.com/nafisalfiani/ketson-transaction-service/lib/parser"
 	"github.com/xendit/xendit-go/v4"
 	"gorm.io/gorm"
 )
