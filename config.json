@@ -1,0 +1,46 @@
+{
+    "auth": {
+      "accesstokenkey": "1lk2e967dus^8hs6dASU@JE",
+      "accesstokenduration": "3600s",
+      "refreshtokenkey": "6s!7hJd2l8eAkR#9Usd6u",
+      "refreshtokenduration": "43200s"
+    },
+    "log": {
+      "level": "debug"
+    },
+    "security": {
+      "secretkey": "5dge967dus^8hs6dA$bD7rH"
+    },
+    "sql": {
+      "url": "34.128.81.67",
+      "port": "5432",
+      "name": "ketson_db",
+      "user": "ketson-service",
+      "password": "C%E+y#&i4xc<n[_9"
+    },
+    "cache": {
+      "protocol": "",
+      "host": "redis-11010.c1.ap-southeast-1-1.ec2.cloud.redislabs.com",
+      "port": "11010",
+      "username": "default",
+      "password": "mCEeZ038zlvm6KlIkmzR1Tb7ok3A6LNQ",
+      "defaultttl": "3600s",
+      "tls": {
+        "enabled": false,
+        "insecureskipverify": false
+      }
+    },
+    "broker": {
+      "url": "amqps://gqqgcxcl:fMBaMbVn_hZ0WbADjA5UIOoRhi0XRczX@octopus.rmq3.cloudamqp.com/gqqgcxcl"
+    },
+    "grpc": {
+      "base": "",
+      "port": "50053"
+    },
+    "xendit": {
+      "apikey": "xnd_development_e9ap9xFg2QEGKCfxFmWLSq1RrnDp4O8IfcLgasEJ6SqbHtHQYFHb6gjFyRh6FiFw",
+      "publickey": "xnd_public_development_KLw3VvyT7KHkl3Y1hoRPAab0FS_VgaLZzHp2VxtFofkr5dXxgi5HQxwvXM0ehpH",
+      "webhooktoken": "UkRAQR0IClfRu0c9l2XVrvFfln9U6d3tmDIfHkC2FVr4YWGT"
+    }
+  }
+  
